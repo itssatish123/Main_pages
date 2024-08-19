@@ -1,0 +1,273 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_s{
+    background-color: whitesmoke;
+    color: black;
+}
+.banner_part1{
+text-align: center;
+}
+.S_join{
+    background-color: black;
+    text-align: center;
+    z-index: 5;
+    border-radius: 25px;
+}
+
+.banner_part2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: rgb(213, 215, 218);
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Featured{
+    text-align: center;
+    padding-top:80px;
+}
+.box-container {
+    padding: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+ .box-container .box {
+    /* -webkit-box-flex: 1;
+    -ms-flex: 1 1 20rem;
+    flex: 1 1 20rem; */
+    display: flex;
+
+  }
+  .page3{
+    padding-top: 80px;
+    display: flex;
+  }
+  .part1{
+    /* padding-right: 320px; */
+    margin-right:330px;
+    padding-left: 30px;
+  }
+/*part2 */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+ 
+    gap: 10px;
+   
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+
+    text-align: Start;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+  
+  .part4{
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+  }
+  #part_4_head{
+    align-items: center;
+  }
+
+  .part4_para{
+    text-align: center;
+  }
+  .part4 .grid-container {
+    display: flex;
+   
+  }
+  
+  .part4 .grid-container > div {
+justify-content: space-evenly;
+    text-align: Start;
+    padding: 20px 0;
+    font-size: 15px;
+  }
+
+  .h5_backgroung
+  {
+    background-color: rgb(183, 216, 205);
+  }
+
+  .grid-container4 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 50% 50%;
+    background-color:white;
+    padding: 10px;
+  }
+  
+  .grid-item4 {
+    background-color:#ccede9;
+  
+    padding: 20px;
+    font-size: 15px;
+    text-align: Start;
+  }
+
+  .page5_header{
+    display: flex;
+    padding-top: 40px;
+    margin: 10px;
+justify-content: space-between;
+
+  }
+
+  .score1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.count11{
+    gap: 9px;
+    border-radius: 15px;
+}
+.score1 .count11 .Score_count1{
+    font-size: 30px;
+    padding:7px 5px 5px 5px;
+}
+  
+.secssion_4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.grid-container_part6 {
+    
+    display: flex;
+    grid-template-columns: 100% 300px auto auto;
+    gap: 10px;
+    background-color:white;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  
+  .grid-container_part6 > div {
+    background-color: rgba(136, 127, 224, 0.8);
+    text-align: start;
+    margin: 28px;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .page_6{
+    display: flex;
+    font-size: 10px;
+    gap:30px;
+    margin-right: 20px;
+    
+  }
+  .page_6 .side_img img{
+    padding-right:20px 20px 0px 20px;
+    border: 20px;
+
+  }
+
+
+  
+  .side_grid_inde {
+    /* display: grid;
+    place-items: center; */
+   
+   border-bottom: 1px solid black;
+    font-size: 10px;
+   padding: 2px 150px 15px 60px;
+
+  }
+    
+  .side_grid_inde  p{
+    /* display: grid;
+    place-items: center; */
+    font-size: 17px;
+
+  }
+  .side_grid_inde  h2{
+  padding-top: 2px;
+
+  }
+ .side_grid_inde span{
+color: blue;
+  }
+
+  #last_1{
+    
+    text-align: left;
+    color: #819286;
+
+  }
+#LEVELED{
+    text-align: left;
+    display: flex;
+  padding-top: 20px;
+  padding-bottom: 2px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    border-color:#819286 ;
+    border-top: 1px;
+  }
+  .footer_nav{
+    display: inline-block;
+    table-layout:auto;
+  }
+ 
+  .card-boy{
+    background-color: #5674d6;
+    margin-top: 0px;
+    border-radius: 20px;
+    border-top: 0px;
+    background-color: #5674d6 ;
+    
+  }
+  .S_joi{
+    background-color: white;
+    text-align: center;
+    color: black;
+    z-index: 5;
+    border-radius: 25px;
+}
+.card-header{
+  background-color: #5674d6;
+  border-color: #5674d6;
+
+}
+.card_first{
+  text-align-last: left;
+}
+
+#para_12{
+  font-size: 20px;
+  font-weight: bold;
+}
